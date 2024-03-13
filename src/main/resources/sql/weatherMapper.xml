@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aio.weather.dao.WeatherServiceDao">
+
+    <select id="selectWeatherInfo" parameterType="HashMap" resultType="Api">
+        SELECT * FROM apimanager
+    </select>
+
+
+</mapper>
